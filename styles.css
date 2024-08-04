@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--violet);
+}
+
+.search-container {
+    margin: 0 auto;
+}
+
+.search-container > * {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+    padding: 5px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.search-container > button {
+    margin-bottom: 0;
+}
+
+#pokemon-card {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 10px;
+    display: none;
+}
+
+.name-container {
+    text-align: center;
+}
+
+#pokemon-name {
+    font-size: x-large;
+}
+
+#pokemon-id {
+    font-size: smaller;
+    font-style: italic;
+    position: relative;
+    left: -5px;
+    top: -10px;
+}
+
+#sprite {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: auto;
+    padding: 30px 0;
+}
+
+.weight-and-height {
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#types {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(110, 110, 110);
+}
+
+#types > span {
+    background-color: rgb(69, 208, 233);
+    border-radius: 4px;
+    width: fit-content;
+    margin: 5px;
+    padding: 2px 5px;
+}
+
+#stats-container {
+    margin-top: 10px;
+    display: none;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 0;
+}
