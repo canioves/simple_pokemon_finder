@@ -16,7 +16,6 @@ h1 {
     width: 350px;
     margin: 0 auto;
     padding: 20px;
-    background-color: var(--violet);
 }
 
 .search-container {
@@ -102,7 +101,8 @@ table {
     width: 100%;
 }
 
-th, td {
+th,
+td {
     border: 1px solid black;
     padding: 4px;
     margin: 0;
